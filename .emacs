@@ -17,8 +17,15 @@
 ;; colours
 (add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0")
 (require 'color-theme)
+(add-to-list 'load-path "~/.emacs.d/themes")
+;(require 'manoj-dark-theme)
+(require 'zenburn-theme)
+;(require 'sublime-text-2)
+;(add-to-list 'load-path "~/.emacs.d/emacs-color-theme-solarized")
+;(require 'color-theme-solarized)
+;(setq solarized-termcolors 256)
 
-(if (display-graphic-p) 
-    (load-theme 'manoj-dark t)
-)
+;(if (display-graphic-p) 
+;    (load-theme 'manoj-dark t)
+;)
 
